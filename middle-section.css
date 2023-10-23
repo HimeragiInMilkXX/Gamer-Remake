@@ -1,0 +1,8 @@
+.middle-section {
+
+    height: 100%;
+    flex-grow: 1;
+    background-color: lightgreen;
+    margin: 0 8px;
+
+}

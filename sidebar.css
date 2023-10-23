@@ -1,0 +1,72 @@
+.sidebar {
+
+    background-color: pink;
+    height: 100%;
+    width: 180px;
+
+}
+
+.sidebar .menu {
+
+    background-color: whitesmoke;
+    margin: 10px 0px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidebar .menu li {
+
+    font-size: 18px;
+    height: 24px;
+    border-bottom: 1px dotted #e4ead0;
+
+}
+
+.sidebar .menu li:nth-of-type(15) {
+
+    border: none;
+
+}
+
+.sidebar .login {
+
+    height: 24px;
+    padding: 15px 10px;
+    background-color: lightyellow;
+
+}
+
+.sidebar .shop {
+
+    margin: 10px 0px;
+    background-color: lightcoral;
+
+}
+
+.sidebar .trending-anime {
+
+    background-color: lightcyan;
+
+}
+
+.sidebar .other-anime {
+
+    margin: 10px 0;
+    background-color: lightgray;
+
+}
+
+.sidebar .research {
+
+    background-color: lightseagreen;
+
+}
+
+.sidebar .copyright {
+
+    margin-top: 10px;
+    background-color: lightgreen;
+
+}
