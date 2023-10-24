@@ -8,21 +8,47 @@
 
 .sidebar .menu {
 
-    background-color: whitesmoke;
+    background-color: rgba(11, 45, 42, 0.8);
     margin: 10px 0px;
 
     display: flex;
     flex-direction: column;
+    padding: 0px 5px 0px 12px;
 
 }
 
 .sidebar .menu li {
 
-    font-size: 18px;
+    font-size: 15px;
     height: 24px;
     border-bottom: 1px dotted #e4ead0;
 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 5px 0px;
+
 }
+
+.sidebar .menu a {
+
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 2px;
+    padding-bottom: 2px;
+
+}
+
+.sidebar .menu .itemicon {
+
+    height: 24px;
+    aspect-ratio: 1/1;
+    margin-right: 10px;
+
+}
+
+
 
 .sidebar .menu li:nth-of-type(15) {
 
@@ -34,7 +60,17 @@
 
     height: 24px;
     padding: 15px 10px;
-    background-color: lightyellow;
+    background-color: #FFEEB3;
+    position: relative;
+
+}
+
+.sidebar .login::after {
+
+    content: url( "resources/sidebar/coin.svg" );
+    position: absolute;
+    right: 0;
+    bottom: 0;
 
 }
 

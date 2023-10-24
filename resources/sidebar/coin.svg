@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>bonus/coin-state/default</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="20" cy="20" r="16"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="32" height="32" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop/daily-bonus" transform="translate(-292.000000, -400.000000)">
+            <g id="bonus-block" transform="translate(240.000000, 339.000000)">
+                <g id="day1" transform="translate(20.000000, 49.000000)">
+                    <g id="bonus/coin-state/default" transform="translate(28.000000, 8.000000)">
+                        <g id="coin">
+                            <use stroke="#7B4901" mask="url(#mask-2)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="#FFD00B" xlink:href="#path-1"></use>
+                            <circle fill="#FF9901" cx="20" cy="20" r="11"></circle>
+                            <path d="M15.562,14.374 L23.934,14.374 C24.774,14.374 25.194,14.794 25.194,15.634 L25.194,19.736 C25.194,20.506 24.746,20.884 23.878,20.884 L16.108,20.884 L16.108,23.46 C16.108,23.824 16.29,24.006 16.654,24.006 L23.164,24.006 C23.346,24.006 23.472,23.922 23.556,23.754 C23.668,23.6 23.766,23.334 23.85,22.942 C23.906,22.634 23.962,22.34 23.99,22.088 C24.088,21.892 24.312,21.78 24.648,21.752 C24.984,21.752 25.278,21.836 25.502,21.99 C25.726,22.158 25.838,22.41 25.838,22.746 C25.824,23.082 25.768,23.432 25.684,23.796 C25.572,24.16 25.446,24.524 25.278,24.888 C25.082,25.168 24.844,25.392 24.564,25.56 C24.27,25.714 23.934,25.812 23.542,25.854 L15.618,25.854 C15.198,25.84 14.862,25.686 14.61,25.406 C14.4,25.168 14.274,24.748 14.246,24.104 L14.246,15.634 C14.246,14.794 14.68,14.374 15.562,14.374 Z M16.108,18.91 C16.108,19.106 16.192,19.19 16.388,19.19 L18.796,19.19 L18.796,16.068 L16.388,16.068 C16.192,16.068 16.108,16.152 16.108,16.292 L16.108,18.91 Z M20.644,16.068 L20.644,19.19 L23.108,19.19 C23.29,19.19 23.388,19.106 23.388,18.91 L23.388,16.292 C23.388,16.152 23.29,16.068 23.108,16.068 L20.644,16.068 Z" id="巴" fill="#FFEC46"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
