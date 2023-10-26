@@ -1,8 +1,9 @@
 .sidebar {
 
-    background-color: pink;
+    background-color: black;
     height: 100%;
     width: 180px;
+    position: relative;
 
 }
 
@@ -62,15 +63,52 @@
     padding: 15px 10px;
     background-color: #FFEEB3;
     position: relative;
+    z-index: 0;
+    overflow: hidden;
+
+    transition: background-color 0.15s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: rgb(85, 85, 85);
+
+    border-radius: 3px;
+    border: 1px solid #d4b878;
+
+    cursor: pointer;
+
+}
+
+.sidebar .login:hover {
+
+    background-color: #ffe790;
 
 }
 
 .sidebar .login::after {
 
-    content: url( "resources/sidebar/coin.svg" );
     position: absolute;
-    right: 0;
-    bottom: 0;
+    background-image: url("resources/sidebar/coin.svg");
+    height: 80px;
+    width: 80px;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: -14px;
+    bottom: -32px;
+    rotate: -35deg;
+    z-index: -1;
+    opacity: 0.33;
+
+    transition: bottom 0.15s;
+
+}
+
+.sidebar .login:hover::after {
+
+    bottom: -23px;
 
 }
 

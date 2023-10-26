@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .login {
+
+            width: 157px;
+            height: 50px;
+
+            position: relative;
+            z-index: 0;
+            display: inline-block;
+            padding: 15px 10px;
+            background-color: #FFEEB3;
+            font-size: 16px;
+            color: #555;
+            line-height: 1.5;
+            text-align: center;
+            box-sizing: border-box;
+            border-radius: 3px;
+            cursor: pointer;
+            overflow: hidden;
+            border: 1px solid #d4b878;
+            transition: all 150ms ease-in;
+
+        }
+
+        .login::after {
+
+            content: "";
+            position: absolute;
+            bottom: -32px;
+            right: -14px;
+            width: 80px;
+            height: 80px;
+            background: url("../resources/sidebar/coin.svg") no-repeat center center;
+            background-size: cover;
+            opacity: 0.33;
+            transform: rotate(-35deg);
+            z-index: 100;
+            transition: bottom 150ms ease-in;
+
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <main>    
+        <div class="login"></div>
+    </main>
+
+    
+</body>
+</html>
