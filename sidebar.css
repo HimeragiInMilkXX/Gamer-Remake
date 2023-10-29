@@ -16,6 +16,8 @@
     flex-direction: column;
     padding: 0px 5px 0px 12px;
 
+    border-radius: 4px;
+
 }
 
 .sidebar .menu li {
@@ -49,8 +51,6 @@
 
 }
 
-
-
 .sidebar .menu li:nth-of-type(15) {
 
     border: none;
@@ -74,7 +74,7 @@
     
     color: rgb(85, 85, 85);
 
-    border-radius: 3px;
+    border-radius: 4px;
     border: 1px solid #d4b878;
 
     cursor: pointer;
@@ -115,26 +115,195 @@
 .sidebar .shop {
 
     margin: 10px 0px;
-    background-color: lightcoral;
+    background-color: rgba(13, 43, 55, 0.8);
+    padding-bottom: 3px;
+
+    border-radius: 4px;
+
+}
+
+.sidebar .shop .shop-title {
+
+    background-color: #3ea7d8;
+    font-size: 15px;
+    color: white;
+    height: 27px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+    border-radius: 3px;
+
+}
+
+.sidebar .shop .items {
+
+    color: rgb(66, 136, 227);
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 14px;
+
+}
+
+.sidebar .shop .items img {
+
+    margin-bottom: 3px;
 
 }
 
 .sidebar .trending-anime {
 
-    background-color: lightcyan;
+    background-color: rgba(13, 43, 55, 0.8);
+    border-radius: 3px;
+
+}
+
+.sidebar-block-title {
+
+    background-color: #3ea7d8;
+    font-size: 15px;
+    color: white;
+    height: 27px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+    border-radius: 3px;
+
+}
+
+.sidebar .trending-anime .items {
+
+    color:rgb(66, 136, 227);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    font-size: 13px;
+
+}
+
+.sidebar .trending-anime .items .anime-title {
+
+    padding: 4px 0;
+
+}
+
+.sidebar .trending-anime .items .episode {
+
+    padding-top: 6px;
+    padding-bottom: 14px;
+
+}
+
+.sidebar .trending-anime .items .episode span {
+
+    color: #F04F75;
 
 }
 
 .sidebar .other-anime {
 
     margin: 10px 0;
-    background-color: lightgray;
+    padding: 0px 8px 0px 8px;
+    border-radius: 3px;
+    background-color: rgba(13, 43, 55, 0.8);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sidebar .other-anime li {
+
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+    border-bottom: 1px dotted #e4ead0;
+
+}
+
+.sidebar .other-anime li:nth-of-type(20) {
+
+    border: none;
+
+}
+
+.sidebar .other-anime li .title {
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    width: 108px;
+
+}
+
+.sidebar .other-anime li span {
+
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+
+}
+
+.sidebar .other-anime li .day {
+
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    position: absolute;
+    right: 0;
+    bottom: 11px;
 
 }
 
 .sidebar .research {
 
-    background-color: lightseagreen;
+    background-color: rgba(13, 43, 55, 0.8);
+    border-radius: 3px;
+
+}
+
+.sidebar .research .list {
+
+    font-size: 13px;
+    padding: 0 10px;
+    padding-left: 15px;
+
+}
+
+.sidebar .research .list li {
+
+    padding-left: 10px;
+
+}
+
+.sidebar .research .list li::marker {
+
+    content: url("resources/sidebar/ul-dot.gif");
+
+}
+
+.sidebar .research .list li p {
+
+    margin-right: 5px;
+
+}
+
+.sidebar .research .list li:nth-of-type(1) {
+
+    color: #00A002;
+    padding-bottom: 8px;
+
+}
+
+.sidebar .research .list li:nth-of-type(2) p {
+
+    border-top: 1px dotted #e4ead0;
+    padding-top: 6px;
+    padding-bottom: 6px;
 
 }
 
