@@ -310,6 +310,44 @@
 .sidebar .copyright {
 
     margin-top: 10px;
-    background-color: lightgreen;
+    background-color: rgba(13, 43, 55, 0.8);
+    font-size: 11px;
+    color: rgb(228, 234, 208);
+    text-align: center;
+    padding: 5px 0;
+
+}
+
+.sidebar .copyright .company {
+
+    font-size: 14.2px;
+
+}
+
+.sidebar .copyright .all-rights-reserved {
+
+    font-size: 15.5px;
+    letter-spacing: 0.7px;
+
+}
+
+.sidebar .copyright ul {
+
+    margin: 10px 0;
+
+}
+
+.sidebar .copyright .information li {
+
+    list-style: none;
+    display: inline;
+    font-size: 12px;
+
+}
+
+.sidebar .copyright .information li:hover {
+
+    text-decoration: underline;
+    cursor: pointer;
 
 }
