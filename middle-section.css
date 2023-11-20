@@ -2,7 +2,144 @@
 
     height: 100%;
     flex-grow: 1;
-    background-color: lightgreen;
+    background-color: black;
     margin: 0 8px;
+
+}
+
+.top-news {
+
+    height: 330px;
+    margin-bottom: 10px;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.top-news-block {
+
+    position: relative;
+    width: 247px;
+    color: rgb(228, 234, 208);
+
+}
+
+.top-news-block img {
+
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: block;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+}
+
+.top-news-block .platform {
+
+    position: absolute;
+    left: 0;
+    top: 4px;
+    font-size: 13px;
+    color: white;
+    background-color: rgba(84, 84, 84, 0.7);
+    height: 15px;
+    padding: 5px 10px 6px 8px;
+    border-top-right-radius: 4px;
+    border-end-end-radius: 4px;
+
+}
+
+.top-news-block .content {
+
+    padding: 10px 8px 8px 8px;
+    font-size: 15px;
+    background-color: rgba(13, 43, 55, 0.8);
+    height: 65px;
+    display: inline-block;
+
+    border-end-end-radius: 4px;
+    border-end-start-radius: 4px;
+
+}
+
+.new-product-info {
+
+    height: 589px;
+    padding: 10px 6px;
+    background-color: lightblue;
+
+}
+
+.gnn-news {
+
+    height: 499px;
+    padding: 10px 6px;
+    background-color: lightgoldenrodyellow;
+    
+}
+
+.denwanfung {
+
+    height: 247px;
+    background-color: lightsalmon;
+    padding: 10px;
+    margin: 12px 0;
+
+}
+
+.topsellers {
+
+    height: 360px;
+    background-color: lightskyblue;
+    padding: 10px;
+    margin-bottom: 12px;
+
+}
+
+.bloggers {
+
+    height: 526px;
+    background-color: lightslategray;
+    padding: 10px 6px;
+    margin-bottom: 12px;
+
+}
+
+.livestreams {
+
+    height: 437px;
+    background-color: lightcyan;
+    padding: 10px;
+    margin-bottom: 12px;
+
+}
+
+.guilds {
+
+    height: 216px;
+    padding: 10px;
+    margin-bottom: 12px;
+    background-color: lightcoral;
+
+}
+
+.posts {
+
+    height: 480px;
+    padding: 10px;
+    margin-bottom: 12px;
+    background-color: lightgrey;
+
+}
+
+.wadais {
+
+    height: 735px;
+    padding: 10px;
+    margin-bottom: 12px;
+    background-color: lightpink;
 
 }
