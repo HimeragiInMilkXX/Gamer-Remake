@@ -305,7 +305,7 @@
     width: 238px;
     color:rgb(228, 234, 208);
     position: relative;
-    background-color:rgba(11, 45, 42, 0.8);
+    background-color: rgba(11, 45, 42, 0.8);
 
 }
 
@@ -335,15 +335,6 @@
 .denwanfung .middle-next-page {
 
     top: 125px;
-
-}
-
-.topsellers {
-
-    height: 360px;
-    background-color: lightskyblue;
-    padding: 10px;
-    margin-bottom: 12px;
 
 }
 
